@@ -1,0 +1,107 @@
+body {
+    background-color: #F79698;
+
+}
+
+div {
+    height: 150px;
+    width: 100%;
+    text-align: center
+}
+
+h1 { 
+    font-family:'Red Hat Display', sans-serif;
+    color: #820A0C;
+    font-size: 56px;
+    padding-top: 60px;
+    padding-bottom: 5%
+}
+
+h2{
+    padding-top: 2%;
+}
+
+i {
+    font-size: 120px;
+    color: #820A0C;
+    position: relative;
+    top: 10px
+}
+
+.fa-check-circle{
+    padding-top: 10px;
+}
+
+.mb-3{
+    align-items: center;
+    text-align: center
+}
+
+input.form-control{
+    width : 20%;
+    display: inline-block;
+}
+
+.urlInput{
+    padding-top: 10px
+}
+
+#nice{
+    width: 7%;
+    height: calc(1.45em + .75rem + 2px);
+    background-color: #820A0C;
+    border-color: black;
+    color: #F79698;
+    text-align: center
+}
+
+form{
+    padding-top: 2%
+}
+
+#button2{
+        width: 140px;
+        height: 45px;
+        font-family:'Red Hat Display', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500;
+        color: #F79698;
+        background-color: #820A0C;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        
+}
+
+#button2:hover{
+    background-color:#B80E11;
+}
+
+@media (max-width:1000px) {
+    .fa-youtube{
+        position: relative;
+        top: 50px
+    }
+
+    .submit{
+        font-size: 9px;
+        width:10%;
+        text-align:left;
+        display: block;
+        position: relative;
+        right: 15px;
+        align-items: center;
+    }
+
+    .input{
+        width: 10%;
+        font-size:9px;
+        position: relative;
+        right: 15px;
+    }
+}
